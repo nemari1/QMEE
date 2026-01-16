@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.rds
+
+
+#ignore cleaned files
+snail_data_clean.rds
+long_snail_clean.rds
