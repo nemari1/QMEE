@@ -7,5 +7,5 @@
 
 
 #ignore cleaned files
-data/snail_data_clean.rds
-data/long_snail_clean.rds
+data/cleaned/snail_data_clean.rds
+data/cleaned/long_snail_clean.rds
