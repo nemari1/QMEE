@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Rproj.user
 .Rhistory
 .RData
@@ -6,5 +7,5 @@
 
 
 #ignore cleaned files
-snail_data_clean.rds
-long_snail_clean.rds
+data/snail_data_clean.rds
+data/long_snail_clean.rds
