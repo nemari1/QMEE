@@ -1,5 +1,16 @@
 # QMEE
 
+#Assignment 3 - IN
+
+For graph 1, I created a boxplot showing the microfiber ingestion count of nylon and PET across control low, medium and high treatment groups. I chose to put nylon and PET fiber counts beside each other so that I could observe the differences in ingestion of each fiber across different treatment groups. I chose a boxplot because I was curious to see the minimum, maximum, and median values at each treatment group as well as the interquartile range. The lines on the top and bottom show the range of my data while the dots show any outliers.
+I chose to make a 2D plot with more subtle gridlines because Edward Tufte highlighted that overly decorated plots (3D, intense backgrounds) are distracting. I also included clear axis titles and a legend to make my plot easy to follow. 
+
+Graph 2 is a violin plot of the microfiber count distribution in snails across control, low, medium, and high treatment groups. I chose to use a violin plot because it shows how the density of my data is distributed, with width increasing where my data was more dense. This allows me to see where my data is most concentrated. 
+I chose this on the basis of Tufte's principles, which prioritize transparency and emphasize that data should not be oversimplified. My plot shows the individual data points as well as the density distribution, which allows me to see how my data is spread out and avoid making incorrect assumptions.
+
+Graph 3 shows the amount of microfibers ingested across treatment groups. Each point represents individual data values, which help me see the distribution and variability of microfiber ingestion counts in different treatment groups. I chose to include a mean line across treatment groups, which shows a gradual increase in microfiber ingestion from control to high treatment groups.
+Since the Cleveland Heirarchy states that graphs that have a position on a common scale are more easy to interpret, I created my plot to have a common y-axis (microfiber count).
+
 ## Assignment 2 - IN
 
 I examined the structure of my data (using summary and head) and changed my `Treatment_Group` class from character to factor because it has a fixed number of categories (Control, Low, Medium, High). 
