@@ -1,5 +1,14 @@
 # QMEE
 
+#Assignment 7 - IN
+
+I hypothesized that increased microfiber exposure will result in increased microfiber ingestion by snails because greater environmental availablity of pollutants will increase uptake. 
+
+My diagnostic plot is checking to see if my residuals are uniform and if there is significant dispersion. My plot shows insignificant results for the KS test and outlier test. Since my negative binomial model already accounted for overdispersion, I am not too concerned about the significant result on the dispersion test, therefore I believe this model is appropriately fitted.
+
+#My inferential plot compares treatment groups for nylon and PET and can tell me if there are any statistically clear differences between groups. The horizontal blue line represents the conifdence intervals and if they cross and touch the dotted line, the difference is not statistically clear. This plot shows a statistically clear difference in microfiber ingestion (PET and nylon) between medium and high treatment groups, and control and low groups for nylon. This supports the idea of a dose-dependent relationship between microfiber exposure and ingestion. It is weird that microfiber ingestion seems to decrease for from the low to medium treatment groups, I am not sure why that is!
+
+
 #Assignment 6 - IN
 
 Hypothesis: It is hypothesized that increased microfiber exposure will result in increased microfiber ingestion by snails because greater environmnetal availablity of pollutants will increase uptake. 
