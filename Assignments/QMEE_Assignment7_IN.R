@@ -3,7 +3,8 @@ library(tidyverse)
 library(emmeans)
 library(dplyr)
 
-snail_data_long <- read_rds("C:Data/cleaned/snail_data_long.rds")
+snail_data_long <- read_rds("Data/cleaned/snail_data_long.rds")
+## JD: Please don't use absolute file paths (like C:, which was here before and not needed)
 
 #Rearranged treatment groups to go from low to high
 snail_data_long <- snail_data_long %>%

@@ -6,7 +6,13 @@ I hypothesized that increased microfiber exposure will result in increased micro
 
 My diagnostic plot is checking to see if my residuals are uniform and if there is significant dispersion. My plot shows insignificant results for the KS test and outlier test. Since my negative binomial model already accounted for overdispersion, I am not too concerned about the significant result on the dispersion test, therefore I believe this model is appropriately fitted.
 
+JD: Significance should not be your go-to. Limited data is a main cause of lack of significance, and how could that be good? Better to look at patterns.
+
 #My inferential plot compares treatment groups for nylon and PET and can tell me if there are any statistically clear differences between groups. The horizontal blue line represents the conifdence intervals and if they cross and touch the dotted line, the difference is not statistically clear. This plot shows a statistically clear difference in microfiber ingestion (PET and nylon) between medium and high treatment groups, and control and low groups for nylon. This supports the idea of a dose-dependent relationship between microfiber exposure and ingestion. It is weird that microfiber ingestion seems to decrease for from the low to medium treatment groups, I am not sure why that is!
+
+JD: Yeah, that's pretty weird. You could try setting this up with ordinal contrasts (treating your predictor variables as ordinal), although maybe you would want to split your experiment into PET and nylon – not sure why you compare high nylon to control PET anyway. 
+
+Grade: 1.9/3
 
 
 #Assignment 6 - IN
